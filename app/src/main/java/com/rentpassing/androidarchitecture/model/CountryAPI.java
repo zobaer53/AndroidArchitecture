@@ -10,4 +10,5 @@ import retrofit2.http.GET;
 public interface CountryAPI {
     @GET("all") //getting all data from endpoint "all"
     Single<List<Country>> getCountries(); //
+
 }

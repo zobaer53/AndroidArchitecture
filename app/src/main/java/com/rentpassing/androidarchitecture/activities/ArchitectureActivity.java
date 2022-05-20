@@ -1,4 +1,4 @@
- package com.rentpassing.androidarchitecture;
+ package com.rentpassing.androidarchitecture.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 

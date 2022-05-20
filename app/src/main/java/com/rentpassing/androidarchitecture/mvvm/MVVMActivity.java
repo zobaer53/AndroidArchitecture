@@ -7,6 +7,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.rentpassing.androidarchitecture.databinding.ActivityMvvmBinding;
 
+import java.util.Objects;
+
 public class MVVMActivity extends AppCompatActivity {
     ActivityMvvmBinding binding;
 
@@ -15,6 +17,6 @@ public class MVVMActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMvvmBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        getSupportActionBar().setTitle("MVVM Architecture");
+        Objects.requireNonNull(getSupportActionBar()).setTitle("MVVM Architecture");
     }
 }
